@@ -4,9 +4,9 @@ setup(
     name="interval",
     version="1.0.0",
     description="Interval and IntervalSet Data Types",
-    long_description= """
+    long_description="""
       Unlike the built-in sets, IntervalSets contain sets of Interval objects,
-      which describe an interval of continuous values.  These IntervalSets can 
+      which describe an interval of continuous values.  These IntervalSets can
       be used in pretty much the same ways as set objects.""",
     author="Jacob Page",
     author_email="jacob.h.page@gmail.com",
@@ -21,4 +21,3 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Topic :: Scientific/Engineering :: Mathematics"])
-
