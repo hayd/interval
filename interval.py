@@ -408,6 +408,9 @@ class Interval:
         else:
             return -1 if self.comes_before(other) else 1
 
+    def __lt__(self, other):
+        return self.comes_before(other)
+
     def __and__(self, other):
         """Returns the intersection of two intervals
 
